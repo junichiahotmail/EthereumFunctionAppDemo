@@ -1,6 +1,7 @@
 module.exports = function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
     var contract = require("truffle-contract");
+    
     var HDWalletProvider = require("truffle-hdwallet-provider");
 
     if (req.query.name || (req.body && req.body.name)) {
