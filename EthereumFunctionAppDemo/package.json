@@ -1,12 +1,12 @@
 {
   "name": "ethereumfunctionappdemo",
   "version": "1.0.0",
-  "description": "",
+  "description": "ethereumfunctionappdemo",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Real World Games",
   "license": "ISC",
   "dependencies": {
     "truffle-contract": "^3.0.4",
