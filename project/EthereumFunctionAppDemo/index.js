@@ -1,5 +1,6 @@
 module.exports = function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
+    var contract = require("truffle-contract");
 
     if (req.query.name || (req.body && req.body.name)) {
         context.res = {
@@ -10,7 +11,7 @@ module.exports = function (context, req) {
     else {
         context.res = {
             status: 400,
-            body: "Please pass a name on the query string or in the request body"
+            body: "hogehogehoge"
         };
     }
     context.done();
