@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "truffle-contract": "^3.0.4",
-    "truffle-hdwallet-provider": "0.0.3",
+    "truffle-hdwallet-provider": "0.0.3"
   },
   "repository": {
     "type": "git",
